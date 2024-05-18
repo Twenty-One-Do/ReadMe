@@ -31,6 +31,8 @@ docker start deploy-env
 
 ## ERD
 
+![ReadMe](https://github.com/Twenty-One-Do/ReadMe/assets/156996387/edcdf7f5-cf33-4c6c-9ac4-eb4f38538957)
+
 ## API
 
 # 🚀 Release Notes
