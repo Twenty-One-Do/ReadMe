@@ -13,7 +13,6 @@ ALLOWED_HOSTS = []
 
 INSTALLED_APPS = [
     'account',
-    'main',
     'portfolio',
     'post',
 
@@ -77,6 +76,8 @@ DATABASES = {
         'NAME': BASE_DIR / 'db.sqlite3',
     }
 }
+
+AUTH_USER_MODEL = 'account.User'
 
 AUTH_PASSWORD_VALIDATORS = [
     {

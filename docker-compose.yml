@@ -7,7 +7,7 @@ services:
       - "80:80"
     volumes:
       - .:/app
-    container_name: deploy-env
+    container_name: rm-deploy-env
     command: >
       sh -c "pip install --no-cache-dir -r requirements.txt &&
              gunicorn --bind 0.0.0.0:80 OpinionProject.wsgi:application"
