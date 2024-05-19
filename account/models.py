@@ -10,4 +10,4 @@ class User(AbstractUser):
     )
     birth_date = models.DateField(null=True, blank=True)
     email = models.EmailField(unique=True)
-    phone_number = models.CharField(max_length=10)
+    phone_number = models.CharField(max_length=11)
